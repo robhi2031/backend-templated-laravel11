@@ -1,0 +1,270 @@
+/*--begin Root Custom--*/
+:root,[data-bs-theme=light] {
+    color-scheme: dark;
+    --bs-link-color: #FFD500;
+    --bs-link-hover-color: #FFBB00;
+    --bs-link-color-rgb: 255, 213, 0;
+    --bs-link-hover-color-rgb: 255, 187, 0;
+    --bs-menu-link-color-hover: #008D65;
+    --bs-menu-link-color-show: #008D65;
+    --bs-menu-link-color-here: #008D65;
+    --bs-menu-link-color-active: #008D65;
+    --bs-component-active-bg: #008D65;
+    --bs-component-hover-color: #008D65;
+    --bs-scrolltop-bg-color: var(--bs-success);
+    --bs-scrolltop-bg-color-hover: #008D65;
+}
+[data-bs-theme=dark] {
+    color-scheme: dark;
+    --bs-link-color: #FFD500;
+    --bs-link-hover-color: #FFBB00;
+    --bs-link-color-rgb: 255, 213, 0;
+    --bs-link-hover-color-rgb: 255, 187, 0;
+    --bs-menu-link-color-hover: #008D65;
+    --bs-menu-link-color-show: #008D65;
+    --bs-menu-link-color-here: #008D65;
+    --bs-menu-link-color-active: #008D65;
+    --bs-component-active-bg: #008D65;
+    --bs-component-hover-color: #008D65;
+    --bs-scrolltop-bg-color: var(--bs-success);
+    --bs-scrolltop-bg-color-hover: #008D65;
+}
+.stepper.stepper-pills {
+    --bs-stepper-icon-bg-color: var(--bs-success-light);
+    --bs-stepper-icon-bg-color-current: var(--bs-success);
+    --bs-stepper-icon-bg-color-completed: var(--bs-success-light);
+    --bs-stepper-icon-number-color: var(--bs-success);
+    --bs-stepper-icon-check-color-completed: var(--bs-success);
+}
+/*--end Root Custom--*/
+/*--begin Animated Login Custom--*/
+.loginAnimated-fadeInRight {
+    animation: login_fadeInRight 1s ease-in-out;
+    -webkit-animation: login_fadeInRight 1s ease-in-out;
+}
+@keyframes login_fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        -o-transform: translateX(5px);
+} to {
+        opacity: 1;
+    }
+}
+/*--end Animated Login Custom--*/
+/*--start Input, Button Custom--*/
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select .dropdown-toggle:hover,
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+    outline: none!important;
+    outline-offset: 0;
+}
+.form-check-input:checked {
+    background-color: var(--bs-success);
+    border-color: var(--bs-success);
+}
+.form-check-input[type=checkbox]:indeterminate {
+    background-color: var(--bs-success);
+    border-color: var(--bs-success);
+}
+/*--end Input, Button Custom--*/
+/*--start Dropify Custom--*/
+.dropify-wrapper {
+    border-radius: .475rem!important;
+}
+.dropify-custom-dark .dropify-preview {
+    background-color: #1a1a27;
+}
+.dropify-custom-dark .dropify-preview .dropify-render img {
+    background-color: #1a1a27;
+}
+/*--end Dropify Custom--*/
+/*--start Summernote Custom--*/
+.note-editor .dropdown-toggle::after {
+    all: unset;
+}
+.note-editor .note-dropdown-menu {
+    box-sizing: content-box;
+}
+.note-editor .note-modal-footer {
+    box-sizing: content-box;
+}
+.note-editor .note-modal-body .checkbox input {
+    margin-right: 5px;
+}
+.note-toolbar .note-btn-group .note-btn i {
+    color: #181c32;
+}
+.note-editor .note-editing-area {
+    background: var(--bs-white);
+}
+.note-btn.active,.note-btn.focus,.note-btn:active,.note-btn:focus,.note-btn:hover {
+    border-radius: var(--bs-btn-border-radius);
+}
+/*--end Summernote Custom--*/
+/*--begin Handsontable Custom--*/
+.handsontable .ht_clone_top {
+    z-index: 1;
+}
+/*--end Handsontable Custom--*/
+/*--begin Footer Custom--*/
+#copyRight p {
+    padding: 0;
+    margin: 0;
+}
+/*--end Footer Custom--*/
+/*--start FilePond input Custom--*/
+.filepond--item {
+    width: calc(50% - 0.5em);
+}
+@media (min-width: 50em) {
+    .filepond--item {
+        width: calc(25% - 0.5em);
+    }
+}
+.filepond--root .filepond--credits {
+    display: none;
+}
+/*--end FilePond input Custom--*/
+/*--start Magnific-popup Custom--*/
+.mfp-bg{
+	z-index: 99999;
+}
+.mfp-wrap{
+	z-index: 99999;
+}
+/*--end Magnific-popup Custom--*/
+/*--start Custom Border--*/
+.border-hover-3-success:hover {
+    border: 3px solid rgba(var(--bs-success-rgb), 1)!important;
+}
+/*--end Custom Border--*/
+/*--begin Select2 Custom--*/
+.select2-container--bootstrap5 .select2-selection--multiple .select2-selection__rendered .select2-selection__choice .select2-selection__choice__remove:hover,
+.select2-container--bootstrap5 .select2-selection__clear:hover {
+    background-color: var(--bs-danger)!important;
+}
+/*--end Select2 Custom--*/
+/*--begin Custom--*/
+.bg-gradient-dark-blue {
+    background: linear-gradient(112.14deg, #001935 0%, #0063ff 100%);
+}
+.end--10px {
+    right: -10px !important;
+}
+.datepicker {
+    padding: 1rem .5rem .5rem .5rem;
+}
+.dropdown-item-hover-success:focus,.dropdown-item-hover-success:hover {
+    color: var(--bs-success);
+    background-color: var(--bs-dropdown-link-hover-bg)
+}
+.dropdown-item-success.active,.dropdown-item-success:active {
+    color: var(--bs-success-active);
+    text-decoration: none;
+    background-color: var(--bs-dropdown-link-active-bg)
+}
+.dropdown-item-hover-success:focus i,.dropdown-item-hover-success:hover i {
+    color: var(--bs-success) !important;
+}
+.dropdown-item-success.active i,.dropdown-item-success:active i {
+    color: var(--bs-success-active) !important;
+}
+.nav-line-tabs .nav-item .nav-link.active,.nav-line-tabs .nav-item .nav-link-hover-success:hover:not(.disabled),.nav-line-tabs .nav-item.show .nav-link {
+    border-bottom: 1px solid var(--bs-success);
+}
+.nav-line-tabs .nav-item .nav-link.active,.nav-line-tabs .nav-item .nav-link:hover:not(.disabled),.nav-line-tabs .nav-item.show .nav-link {
+    border-bottom: 1px solid var(--bs-success);
+}
+.text-ellipsis-175px {
+    text-overflow: ellipsis;
+    width: 175px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/*--end Custom--*/
+/*--start Handsontable  Custom--*/
+.ht_clone_top, .ht_clone_left, .ht_clone_top_inline_start_corner {
+    z-index: 1 !important;
+}
+.htDropdownMenu:not(.htGhostTable) {
+    z-index: 99 !important;
+}
+/*--end Handsontable Custom--*/
+/*--start Datatable Custom--*/
+table.text-nowrap.dataTable>thead .sorting_asc:after, table.text-nowrap.dataTable>thead .sorting_desc:after {
+    display: block!important;
+}
+/*--end Datatable Custom--*/
+/*--start Custom swal2--*/
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: var(--bs-success) !important;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+    box-shadow: 0 0 0 0 rgba(2,115,53,.5) !important;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-deny {
+    background-color: var(--bs-danger) !important;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-deny:focus {
+    box-shadow: 0 0 0 0 rgba(241,65,108,.5) !important;
+}
+/*--end Custom swal2--*/
+/*--start Custom Border--*/
+.border-hover-3-primary:hover {
+    border: 3px solid rgba(var(--bs-link-color-rgb), 1) !important;
+}
+/*--end Custom Border--*/
+/*--start Datepicker Custom--*/
+.datepicker table tr td.active,.datepicker table tr td.active.disabled,.datepicker table tr td.active.disabled:hover,.datepicker table tr td.active:hover {
+    background-color: #027335;
+    background-image: -moz-linear-gradient(to bottom,#027335,var(--bs-success));
+    background-image: -ms-linear-gradient(to bottom,#027335,var(--bs-success));
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#027335),to(var(--bs-success)));
+    background-image: -webkit-linear-gradient(to bottom,#027335,var(--bs-success));
+    background-image: -o-linear-gradient(to bottom,#027335,var(--bs-success));
+    background-image: linear-gradient(to bottom,#027335,var(--bs-success));
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027335', endColorstr='#41744B', GradientType=0);
+    border-color: var(--bs-success) var(--bs-success) #027335;
+    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25)
+}
+
+.datepicker table tr td.active.active,.datepicker table tr td.active.disabled,.datepicker table tr td.active.disabled.active,.datepicker table tr td.active.disabled.disabled,.datepicker table tr td.active.disabled:active,.datepicker table tr td.active.disabled:hover,.datepicker table tr td.active.disabled:hover.active,.datepicker table tr td.active.disabled:hover.disabled,.datepicker table tr td.active.disabled:hover:active,.datepicker table tr td.active.disabled:hover:hover,.datepicker table tr td.active.disabled:hover[disabled],.datepicker table tr td.active.disabled[disabled],.datepicker table tr td.active:active,.datepicker table tr td.active:hover,.datepicker table tr td.active:hover.active,.datepicker table tr td.active:hover.disabled,.datepicker table tr td.active:hover:active,.datepicker table tr td.active:hover:hover,.datepicker table tr td.active:hover[disabled],.datepicker table tr td.active[disabled] {
+    background-color: var(--bs-success)
+}
+
+.datepicker table tr td.active.active,.datepicker table tr td.active.disabled.active,.datepicker table tr td.active.disabled:active,.datepicker table tr td.active.disabled:hover.active,.datepicker table tr td.active.disabled:hover:active,.datepicker table tr td.active:active,.datepicker table tr td.active:hover.active,.datepicker table tr td.active:hover:active {
+    background-color: var(--bs-success)\9
+}
+
+.datepicker table tr td span.active,.datepicker table tr td span.active.disabled,.datepicker table tr td span.active.disabled:hover,.datepicker table tr td span.active:hover {
+    background-color: #027335;
+    background-image: -moz-linear-gradient(to bottom,#027335,var(--bs-success));
+    background-image: -ms-linear-gradient(to bottom,#027335,var(--bs-success));
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#027335),to(var(--bs-success)));
+    background-image: -webkit-linear-gradient(to bottom,#027335,var(--bs-success));
+    background-image: -o-linear-gradient(to bottom,#027335,var(--bs-success));
+    background-image: linear-gradient(to bottom,#027335,var(--bs-success));
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027335', endColorstr='#41744B', GradientType=0);
+    border-color: var(--bs-success) var(--bs-success) #027335;
+    border-color: rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25)
+}
+
+.datepicker table tr td span.active.active,.datepicker table tr td span.active.disabled,.datepicker table tr td span.active.disabled.active,.datepicker table tr td span.active.disabled.disabled,.datepicker table tr td span.active.disabled:active,.datepicker table tr td span.active.disabled:hover,.datepicker table tr td span.active.disabled:hover.active,.datepicker table tr td span.active.disabled:hover.disabled,.datepicker table tr td span.active.disabled:hover:active,.datepicker table tr td span.active.disabled:hover:hover,.datepicker table tr td span.active.disabled:hover[disabled],.datepicker table tr td span.active.disabled[disabled],.datepicker table tr td span.active:active,.datepicker table tr td span.active:hover,.datepicker table tr td span.active:hover.active,.datepicker table tr td span.active:hover.disabled,.datepicker table tr td span.active:hover:active,.datepicker table tr td span.active:hover:hover,.datepicker table tr td span.active:hover[disabled],.datepicker table tr td span.active[disabled] {
+    background-color: var(--bs-link-hover-color)
+}
+
+.datepicker table tr td span.active.active,.datepicker table tr td span.active.disabled.active,.datepicker table tr td span.active.disabled:active,.datepicker table tr td span.active.disabled:hover.active,.datepicker table tr td span.active.disabled:hover:active,.datepicker table tr td span.active:active,.datepicker table tr td span.active:hover.active,.datepicker table tr td span.active:hover:active {
+    background-color: var(--bs-link-hover-color)\9
+}
+/*--end Datepicker Custom--*/
