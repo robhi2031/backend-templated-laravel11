@@ -1,2 +1,2 @@
-# koperasi_simple
- Aplikasi Koperasi Simple
+# web backend for Laravel 11
+ (sample) Aplikasi Koperasi Simple
