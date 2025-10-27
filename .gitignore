@@ -28,3 +28,12 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+
+# For live add lines below
+# *.init.css
+# *.init.js
+
+/public/dist/img/profil-instansi-img
+/public/dist/img/site-img
+/public/dist/img/users-img
+/public/dist/libs
